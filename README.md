@@ -34,7 +34,8 @@ Abaixo algumas sugestões para quem está engatinhando, saber quais ferramentas 
 	$ bundle
 	$ rspec spec
 
-PS: eventualmente pode faltar albuma lib no seu ambiente, por exemplo, OpenSSL, então, instale qualquer dependência que tenha no sistema.
+PS: eventualmente pode faltar albuma lib no seu ambiente, por exemplo, OpenSSL, então, instale qualquer dependência que tenha no sistema. Para resolver isso, use o comando abaixo que deve resolver tudo:
+$ sudo apt-get install build-essential openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion
 
 Quando isso começar a funcionar (abrirá a página do Google e fará uma pesquisa 2x), significa que já poderemos iniciar os próximos passos.
 
