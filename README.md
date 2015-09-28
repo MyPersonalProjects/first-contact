@@ -10,7 +10,7 @@ Abaixo algumas sugestões para quem está engatinhando, saber quais ferramentas 
 
 - Eu utilizo Linux, portanto, sugiro uma versão linux, seja numa partição ou VM (Ubunto 12.04 LTS);
 - Firefox com a extensão do Selenium na sua última versão;
-- Um editor de textos: Sublime Text;
+- Um editor de textos: https://atom.io;
 - Configurar sua conta GitHub e sua chave SSH (https://help.github.com/articles/generating-ssh-keys);
 - Instalar o Rbenv (https://github.com/sstephenson/rbenv#installation);
 - Instalar o plugin do rbenv:
