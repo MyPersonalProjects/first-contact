@@ -6,9 +6,9 @@ Objetivo aqui é instruir e documentar o processo inicial para quem quer começa
 1o Passo
 ========
 
-Abaixo algumas sugestões para quem está engatinhando, saber quais ferramentas podem ser utilizadas:
+Abaixo algumas sugestões para quem está engatinhando, saber quais ferramentas podem ser utilizadas 41st
 
-- Eu utilizo Linux, portanto, sugiro uma versão linux, seja numa partição ou VM (Ubunto 12.04 LTS);
+- Eu utilizo Linux, portanto, sugiro uma versão linux, seja numa partição ou VM (Ubuntu 12.04 LTS);
 - Firefox com a extensão do Selenium na sua última versão;
 - Um editor de textos: https://atom.io;
 - Configurar sua conta GitHub e sua chave SSH (https://help.github.com/articles/generating-ssh-keys);
