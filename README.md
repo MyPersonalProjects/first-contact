@@ -14,28 +14,47 @@ Abaixo algumas sugestões para quem está engatinhando, saber quais ferramentas 
 - Configurar sua conta GitHub e sua chave SSH (https://help.github.com/articles/generating-ssh-keys);
 - Instalar o Rbenv (https://github.com/sstephenson/rbenv#installation);
 - Instalar o plugin do rbenv:
-	$ git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+
+`$ git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build`
+
 - Configurar o rbenv no path:
-	$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.profile
+
+`$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.profile`
+
 - Atualizar o shell:
-	$ exec $SHELL -l
-- Instalar o Ruby (https://github.com/sstephenson/rbenv#installing-ruby-versions); #instale a versão 2.1.2 (a atual)
+
+`$ exec $SHELL -l`
+
+- Instalar o Ruby (https://github.com/sstephenson/rbenv#installing-ruby-versions); #instale a versão 2.2.3 (a atual)
 - Definindo a versão ruby global a ser utilizada:
-	$ rbenv global 2.1.2 (a versão do ruby que vc instalou)
+
+`$ rbenv global 2.1.2 (a versão do ruby que vc instalou)`
+
 - Feito isso, instalar o Bundler, com o comando:
-	$ sudo gem install bundler
+
+`$ sudo gem install bundler``
+
 - Definir sua pasta de trabalho:
-	$ mkdir ~/workspace/
-	$ cd ~/workspace
+
+`$ mkdir ~/workspace/`
+
+`$ cd ~/workspace`
+
 - Clonar esse repositório na pasta criada:
-	$ git clone git@github.com:MyPersonalProjects/first-contact.git
+
+`$ git clone git@github.com:MyPersonalProjects/first-contact.git`
+
 - Para rodar o primeiro exemplo Rspec:
-	$ cd ~/workspace/first-contact/rb
-	$ bundle
-	$ rspec spec
+
+`$ cd ~/workspace/first-contact/rb`
+
+`$ bundle`
+
+`$ rspec spec`
 
 PS: eventualmente pode faltar albuma lib no seu ambiente, por exemplo, OpenSSL, então, instale qualquer dependência que tenha no sistema. Para resolver isso, use o comando abaixo que deve resolver tudo:
-$ sudo apt-get install build-essential openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 nodejs libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion
+
+`$ sudo apt-get install build-essential openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 nodejs libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion`
 
 Pode ocorrer erros de libs ao executar o comando "gem install bundler", neste caso, desinstalar o Rbenv e instalar novamente e em seguida executar novamente o bundler.
 Ex:	rbenv uninstall 1.9.3-p286
@@ -63,19 +82,19 @@ Nesse momento ainda não vamos nos preocupar com o uso correto do git que é cri
 
 Como estamos fazendo já dentro de uma sub-pasta desse projeto, o git já está monitorando seus arquivos, então, vejamos o que fazer para subir suas alterações, a partir da pasta que criou no 2o Passo, siga os comando abaixo:
 
-$ git status (vai mostrar a branch em que vc está, os arquivos modificados e novos arquivos incluídos com o status untracked)
+`$ git status` (vai mostrar a branch em que vc está, os arquivos modificados e novos arquivos incluídos com o status untracked)
 
-$ git add . (esse ponto vai adicionar todos os arquivos untracked, tenha certeza de que quer subir todos mesmo, ou use o camando abaixo)
+`$ git add .` (esse ponto vai adicionar todos os arquivos untracked, tenha certeza de que quer subir todos mesmo, ou use o camando abaixo)
 
-$ git add [caminho_e_nome_do_arquivo] [caminho_e_nome_do_arquivo] [caminho_e_nome_do_arquivo] (para cada arquivo que for subir)
+`$ git add [caminho_e_nome_do_arquivo] [caminho_e_nome_do_arquivo] [caminho_e_nome_do_arquivo] (para cada arquivo que for subir)`
 
-$ git status (agora vai mostrar os arquivos que serão adicionados no seu commit)
+`$ git status` (agora vai mostrar os arquivos que serão adicionados no seu commit)
 
-$ git commit -m 'Seu texto descrevendo o que está nesse commit, breve e objetivo mas não totalmente genérico' (sim entre aspas simples)
+`$ git commit -m 'Seu texto descrevendo o que está nesse commit, breve e objetivo mas não totalmente genérico'` (sim entre aspas simples)
 
-$ git status (agora vai mostrar apenas o que faltou comitar e/ou quantos commits você fez)
+`$ git status` (agora vai mostrar apenas o que faltou comitar e/ou quantos commits você fez)
 
-$ git push (vai subir o conteúdo do seu commit para o repositório)
+`$ git push origin master` (vai subir o conteúdo do seu commit para o repositório)
 
 Pronto, suas alterações estarão no repositório.
 
