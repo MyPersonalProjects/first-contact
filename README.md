@@ -13,13 +13,7 @@ Abaixo algumas sugestões para quem está engatinhando, saber quais ferramentas 
 - Um editor de textos: https://atom.io;
 - Configurar sua conta GitHub e sua chave SSH (https://help.github.com/articles/generating-ssh-keys);
 - Instalar o Rbenv (https://github.com/sstephenson/rbenv#installation);
-- Instalar o plugin do rbenv:
-
-`$ git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build`
-
-- Configurar o rbenv no path:
-
-`$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.profile`
+- Instalar o plugin do rbenv: (https://github.com/sstephenson/ruby-build#readme);
 
 - Atualizar o shell:
 
@@ -28,7 +22,7 @@ Abaixo algumas sugestões para quem está engatinhando, saber quais ferramentas 
 - Instalar o Ruby (https://github.com/sstephenson/rbenv#installing-ruby-versions); #instale a versão 2.2.3 (a atual)
 - Definindo a versão ruby global a ser utilizada:
 
-`$ rbenv global 2.1.2 (a versão do ruby que vc instalou)`
+`$ rbenv global 2.2.3 (a versão do ruby que vc instalou)`
 
 - Feito isso, instalar o Bundler, com o comando:
 
