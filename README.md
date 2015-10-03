@@ -14,7 +14,6 @@ Abaixo algumas sugestões para quem está engatinhando, saber quais ferramentas 
 - Configurar sua conta GitHub e sua chave SSH (https://help.github.com/articles/generating-ssh-keys);
 - Instalar o Rbenv (https://github.com/sstephenson/rbenv#installation);
 - Instalar o plugin do rbenv: (https://github.com/sstephenson/ruby-build#readme);
-
 - Atualizar o shell:
 
 `$ exec $SHELL -l`
@@ -24,13 +23,17 @@ Abaixo algumas sugestões para quem está engatinhando, saber quais ferramentas 
 
 `$ rbenv global 2.2.3 (a versão do ruby que vc instalou)`
 
+- Rodar o comando:
+
+`$ rbenv rehash`
+
 - Feito isso, instalar o Bundler, com o comando:
 
-`$ gem install bundler``
+`$ gem install bundler`
 
 - Definir sua pasta de trabalho:
 
-`$ mkdir ~/workspace/`
+`$ mkdir ~/workspace`
 
 `$ cd ~/workspace`
 
