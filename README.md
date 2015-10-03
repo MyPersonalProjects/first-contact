@@ -32,7 +32,7 @@ Abaixo algumas sugestões para quem está engatinhando, saber quais ferramentas 
 
 - Feito isso, instalar o Bundler, com o comando:
 
-`$ sudo gem install bundler``
+`$ gem install bundler``
 
 - Definir sua pasta de trabalho:
 
