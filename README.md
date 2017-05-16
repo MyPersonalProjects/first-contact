@@ -8,20 +8,21 @@ Objetivo aqui é instruir e documentar o processo inicial para quem quer começa
 
 Abaixo algumas sugestões para quem está engatinhando, saber quais ferramentas podem ser utilizadas 41st
 
-- Eu utilizo Linux, portanto, sugiro uma versão linux, seja numa partição ou VM (Ubuntu 12.04 LTS);
+- Eu utilizo Linux, portanto, sugiro uma versão linux, seja numa partição ou VM (Ubuntu 16.04 LTS);
 - Firefox com a extensão do Selenium na sua última versão;
 - Um editor de textos: https://atom.io;
 - Configurar sua conta GitHub e sua chave SSH (https://help.github.com/articles/generating-ssh-keys);
+- Instalar um gerenciador de versão do Ruby (escolha UM SÓ): Rbenv OU RVM (hoje eu uso RVM: https://rvm.io/rvm/install )
 - Instalar o Rbenv (https://github.com/sstephenson/rbenv#installation);
 - Instalar o plugin do rbenv: (https://github.com/sstephenson/ruby-build#readme);
 - Atualizar o shell:
 
 `$ exec $SHELL -l`
 
-- Instalar o Ruby (https://github.com/sstephenson/rbenv#installing-ruby-versions); #instale a versão 2.2.3 (a atual)
+- Instalar o Ruby (https://github.com/sstephenson/rbenv#installing-ruby-versions); #instale a versão 2.3.3 (a atual)
 - Definindo a versão ruby global a ser utilizada:
 
-`$ rbenv global 2.2.3 (a versão do ruby que vc instalou)`
+`$ rbenv global 2.3.3 (a versão do ruby que vc instalou)`
 
 - Rodar o comando:
 
@@ -54,8 +55,8 @@ PS: eventualmente pode faltar albuma lib no seu ambiente, por exemplo, OpenSSL, 
 `$ sudo apt-get install build-essential openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 nodejs libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion`
 
 Pode ocorrer erros de libs ao executar o comando "gem install bundler", neste caso, desinstalar o Rbenv e instalar novamente e em seguida executar novamente o bundler.
-Ex:	rbenv uninstall 1.9.3-p286
-	rbenv install 1.9.3-p286
+Ex:	rbenv uninstall 2,3.3
+	rbenv install 2.3.3
 
 Quando isso começar a funcionar (abrirá a página do Google e fará uma pesquisa 2x), significa que já poderemos iniciar os próximos passos.
 
